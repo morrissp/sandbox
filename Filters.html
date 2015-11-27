@@ -1,72 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head><title>
-<!--FatWire Corporation Content Server 7.6.0
-Copyright (c) 2003 - 2011 FatWire Corporation All Rights Reserved.
-Copyright (c) 2001 - 2003 divine, inc. All Rights Reserved.
-Copyright (c) 1999 - 2001 Open Market, Inc. All Rights Reserved.
-Copyright (c) 1998 - 1999 FutureTense, Inc. All Rights Reserved.
--->
-</title></head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>&lt;!--FatWire Corporation Content Server 7.6.0 Copyright (c) 2003 - 2011 FatWire Corporation All Rights Reserved. Copyright (c) 2001 - 2003 divine, inc. All Rights Reserved. Copyright (c) 1999 - 2001 Open Market, Inc. All Rights Reserved. Copyright (c) 1998 - 1999 FutureTense, Inc. All Rights Reserved. --&gt;</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.13">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none}
+    table.t1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080}
+    td.td1 {width: 128.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 237.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 252.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 2.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 22.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 2.0px 2.0px 2.0px 2.0px}
+  </style>
+</head>
 <body>
-
-<br>
-<!--ver:3:-->
-<!--wrapper:<ft15323:-->
-<!--Filters-->
-
-<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=2>
-
-<CAPTION ALIGN=LEFT>Filters</CAPTION>
-
-<!--tt:no:-->
-<!--dbt:Oracle:-->
-<tr>	<th><u><b>name</b></u><!--VARCHAR(32) PRIMARY KEY NOT NULL;(text)--></th>
-	<th><u><b>description</b></u><!--VARCHAR(128) NULL;(text)--></th>
-	<th><u><b>classname</b></u><!--VARCHAR(255) NOT NULL;(text)--></th>
-	<th><u><b>args</b></u><!--VARCHAR(2000) NULL;(text)--></th>
-</tr>
-<tr>
-	<td><ft15323b/>Document Transformation<ft15323e/></td>
-	<td><ft15323b/>Use a registered document transformation engine<ft15323e/></td>
-	<td><ft15323b/>com.openmarket.gator.filters.DocTransformation<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>FieldCopier<ft15323e/></td>
-	<td><ft15323b/>Copies Base Fields to Attributes<ft15323e/></td>
-	<td><ft15323b/>com.fatwire.firstsite.filter.FieldCopier<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>FileName<ft15323e/></td>
-	<td><ft15323b/>Obtains (original) FileName of a blob<ft15323e/></td>
-	<td><ft15323b/>com.barclays.cms.fatwire.filters.FileName<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>FileSize<ft15323e/></td>
-	<td><ft15323b/>Obtains FileSize of a blob<ft15323e/></td>
-	<td><ft15323b/>com.barclays.cms.fatwire.filters.FileSize<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>FileType<ft15323e/></td>
-	<td><ft15323b/>Obtains Mimetype details<ft15323e/></td>
-	<td><ft15323b/>com.barclays.cms.fatwire.filters.FileType<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>ThumbnailFilter<ft15323e/></td>
-	<td><ft15323b/>Obtains Thumbnail<ft15323e/></td>
-	<td><ft15323b/>com.fatwire.presales.filters.SEHiResThumbFilter<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-<tr>
-	<td><ft15323b/>FileNameExtension<ft15323e/></td>
-	<td><ft15323b/>Build File name with correct extension<ft15323e/></td>
-	<td><ft15323b/>com.barclays.cms.fatwire.filters.FileNameExtension<ft15323e/></td>
-	<td><ft15323b/><ft15323e/></td>
-</tr>
-</TABLE>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Filters</span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p2"><span class="s2"><b>name</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><span class="s2"><b>description</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p2"><span class="s2"><b>classname</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p2"><span class="s2"><b>args</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">Document Transformation</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Use a registered document transformation engine</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s1">com.openmarket.gator.filters.DocTransformation</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">FieldCopier</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Copies Base Fields to Attributes</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s1">com.fatwire.firstsite.filter.FieldCopier</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">FileName</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Obtains (original) FileName of a blob</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">FileSize</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Obtains FileSize of a blob</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">FileType</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Obtains Mimetype details</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">ThumbnailFilter</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Obtains Thumbnail</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s1">com.fatwire.presales.filters.SEHiResThumbFilter</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p3"><span class="s1">FileNameExtension</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s1">Build File name with correct extension</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
