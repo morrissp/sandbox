@@ -1,4 +1,3 @@
-<html>
 <head>
 <title>site</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -48,13 +47,4 @@
 			var processor = new XSLTProcessor();
 			processor.importStylesheet(stylesheet); 
 			doc = processor.transformToDocument(xmlFile);
-			document.getElementById("data").innerHTML = doc.documentElement.innerHTML;
-		}
-	}
-</script>
-</head>
-<body onload="init();">
-<!--[insert static HTML here]-->
-<div id="data"><!-- this is where the transformed data goes --></div>
-</body>
-</html>
+			document.getElementById("data").innerHT
